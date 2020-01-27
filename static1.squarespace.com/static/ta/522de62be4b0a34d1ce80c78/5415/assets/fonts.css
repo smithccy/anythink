@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Clarkson';
+  src:
+    local('?'),
+    url('clarkson-400.woff2') format('woff2'),
+    url('clarkson-400.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Clarkson';
+  src:
+    local('?'),
+    url('clarkson-500.woff2') format('woff2'),
+    url('clarkson-500.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}

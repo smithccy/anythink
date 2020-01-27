@@ -1,0 +1,1 @@
+.video{position:relative}.video__overlay{height:100%;width:100%;opacity:0;-webkit-transition:opacity 300ms cubic-bezier(.694,0,.335,1);-o-transition:opacity 300ms cubic-bezier(.694,0,.335,1);transition:opacity 300ms cubic-bezier(.694,0,.335,1)}.video__overlay.is-loaded{opacity:1}.video__overlay img{height:100%;width:100%}
