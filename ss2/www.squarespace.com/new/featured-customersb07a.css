@@ -375,7 +375,7 @@
 	display: -ms-flexbox;
 	display: flex;
 	position: relative;
-	height: calc(112px + 75vw)
+	height: calc(140px + 75vw)
 }
 
 @media all and (min-width:768px) {
@@ -432,7 +432,7 @@
 	background-position: center top;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 75vw
+	height: 100%
 }
 
 .featured-customers__container__mobile__slider-container__slider__content__card__image img {
