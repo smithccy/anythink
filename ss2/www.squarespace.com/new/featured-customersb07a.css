@@ -109,7 +109,7 @@
 
 @media all and (min-width:768px) {
 	.featured-customers__container .section-title {
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 		text-align: center;
 		margin-left: auto;
 		margin-right: auto;
@@ -131,13 +131,13 @@
 
 @media all and (min-width:1440px) {
 	.featured-customers__container .section-title {
-		margin-bottom: 50px
+		margin-bottom: 75px
 	}
 }
 
 @media all and (min-width:1920px) {
 	.featured-customers__container .section-title {
-		margin-bottom: 90px
+		margin-bottom: 120px
 	}
 }
 
@@ -769,10 +769,9 @@
 }
 
 
-@media all and (max-width:768px) {
 .mobile_padding4 {
 
 	margin-bottom: 16px;
 }
-}
+
 
