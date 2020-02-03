@@ -1,13 +1,4 @@
 
-.currency-symbol{
-	color: #000;
-}
-.arrow-down-filled {
-    width: 0.55em;
-    vertical-align: middle;
-    padding-bottom: 0.1em;
-    margin-left: 0.55em;
-}
 .footer-i18n-selection2{
 
 
@@ -16,74 +7,7 @@
    
 }
 
-.only-tablet{
-	display: block;
-}
 
-.footer-nav {
-    display: flex;
-    flex-grow: 1;
-    width: 95%;
-    margin-left: 5%;
-    margin-bottom: 0px;
-    margin-right: auto;
-}
-
-.footer-nav-list {
-    font-family: Gotham SSm,sans-serif;
-    font-size: 14px;
-    flex: 1 1 0%;
-	border-bottom: medium none;
-	overflow: hidden;
-}
-.footer-nav-heading {
-    margin-bottom: 2.2em;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    z-index: 0;
-	position: relative;
-	margin-top: 0px;
-	background-color: #FFF;
-	font-family: Gotham SSm,sans-serif;
-	font-size: 12.5px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	color: #000;
-	-moz-user-select: none;
-}
-.arrow-down {
-    display: none;
-    transition: transform 0.3s ease 0s;
-	position: absolute;
-	top: 56%;
-	right: 0px;
-	width: 14px;
-	margin-top: -9px;
-	cursor: pointer;
-}
-.contains-8 {
-    margin-top: 0px;
-}
-.footer-nav-content {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    transition: margin-top 0.3s ease 0s;
-}
-.footer-nav-link {
-    max-width: 160px;
-    font-family: Gotham SSm,sans-serif;
-	font-size: 12px;
-	margin-bottom: 7px;
-	transition: color 0.3s ease 0s;
-	display: block;
-	font-weight: 300;
-	color: #888;
-}
-.is--active, #footer-2016 .footer-nav-link:hover {
-    color: #333;
-}
 
 .footer-i18n-selection2-page{
 	width: 100%;
