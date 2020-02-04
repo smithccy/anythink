@@ -774,4 +774,14 @@
 	margin-bottom: 16px;
 }
 
+@media all and (max-width:768px) {
+	.featured-customers__container .section-title_desktop {
+		display: none;
+	}
+}
 
+@media all and (min-width:768px) {
+	.featured-customers__container .section-title_mobile {
+		display: none;
+	}
+}
