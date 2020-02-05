@@ -229,3 +229,8 @@
 	margin-top:30px;
 }
 
+@media all and (min-width:768px) {
+.array_margin{
+	margin-top:80px;
+}
+}

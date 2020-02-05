@@ -1356,8 +1356,8 @@ beautiful website. Domains, eCommerce, hosting, galleries, analytics, and
         <div class="array__child">
 
          
-
-                <div class="feature-cell__description">
+            
+                <div class="feature-cell__description btn123" style="cursor:pointer;">
                     
                     <p class="feature-cell__paragraph">Web</p>
                     <p class="feature-cell__paragraph">Development</p>
@@ -1375,7 +1375,7 @@ beautiful website. Domains, eCommerce, hosting, galleries, analytics, and
 
            
 
-                <div class="feature-cell__description">
+                <div class="feature-cell__description btn1234" style="cursor:pointer;">
                     
                     <p class="feature-cell__paragraph">Branding</p>
                     <p class="feature-cell__paragraph">Design</p>
@@ -1393,7 +1393,7 @@ beautiful website. Domains, eCommerce, hosting, galleries, analytics, and
 
             
 
-                <div class="feature-cell__description">
+                <div class="feature-cell__description btn12345" style="cursor:pointer;">
                     
                     <p class="feature-cell__paragraph">Digital</p>
                     <p class="feature-cell__paragraph">Marketing</p>
@@ -2177,9 +2177,45 @@ beautiful website. Domains, eCommerce, hosting, galleries, analytics, and
                     $(this).prevAll().removeClass('is--active');
                 });
             });
-        </script>
+    </script>
+    
+    <script>
+        (function(){
+            $('.btn123').click(function(){
+                var div2 = document.getElementById('www-navigation-container');
+
+
+                $(document).ready(function () {
+                    $("html,body").animate({
+                        scrollTop: $("#online-stores-block").eq(0).offset().top - div2.offsetHeight + 1
+                    }, 500);
+                });
+            });
+
+            $('.btn1234').click(function(){
+                var div2 = document.getElementById('www-navigation-container');
+
+
+                $(document).ready(function () {
+                    $("html,body").animate({
+                        scrollTop: $("#customers-block").eq(0).offset().top - div2.offsetHeight + 1
+                    }, 500);
+                });
+            });
+
+            $('.btn12345').click(function(){
+                var div2 = document.getElementById('www-navigation-container');
+
+
+                $(document).ready(function () {
+                    $("html,body").animate({
+                        scrollTop: $("#marketing-tools-block").eq(0).offset().top - div2.offsetHeight + 1
+                    }, 500);
+                });
+            });
+        })();
+    </script>
 </body>
 
-<!-- Mirrored from www.squarespace.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Jan 2020 20:51:05 GMT -->
 
 </html>
